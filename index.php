@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="http://localhost/mail/trailcss.css">
+    <link rel="stylesheet" type="text/css" href="trailcss.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>aqarium</title>
@@ -31,17 +31,17 @@
 
     <div class="hero">
   <div class="fish">
-    <img class="f1" src="http://localhost/mail/fish2.png">
-    <img class="f2" src="http://localhost/mail/fish2.png">
-    <img class="f3" src="http://localhost/mail/fish2.png">
-    <img class="f4" src="http://localhost/mail/fish2.png">
-    <img class="f5" src="http://localhost/mail/fish2.png">
+    <img class="f1" src="fish2.png">
+    <img class="f2" src="fish2.png">
+    <img class="f3" src="fish2.png">
+    <img class="f4" src="fish2.png">
+    <img class="f5" src="fish2.png">
 
   </div>
    <div class="bub">
-     <img class="b1" src="http://localhost/mail/bubble.png">
-    <img class="b2" src="http://localhost/mail/bubble.png">
-    <img class="b3" src="http://localhost/mail/bubble.png">
+     <img class="b1" src="bubble.png">
+    <img class="b2" src="bubble.png">
+    <img class="b3" src="bubble.png">
    </div>
   <div class="content" style="margin-left: 30%;padding: 30px;" id="mydiv">
     <h3 align="center" >LOGIN</h3>
@@ -92,7 +92,7 @@ if($na=="DOT" &&  $pw=="student")
         echo "  <div class='content' style='margin-top: 200px;margin-left: 150px;font-size:30px;'>
     <strong>Success!</strong> Login is success👍🥳🎉🎊.
   </div>";
-    header("Location:http://localhost/mail/pdfupload.php");
+    header("Location:pdfupload.php");
 
       }
       
